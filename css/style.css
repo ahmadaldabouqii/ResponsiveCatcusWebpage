@@ -122,4 +122,27 @@ img{
     main h2{
         font-size: 3.2vw;
     }
+
+    button{
+        line-height: 25px;
+    }
+}
+
+@media all and (max-width:500px){
+    header{
+        height:45vh;
+    }
+
+    .head:nth-child(1){
+        font-size: 7.5vw;
+    }
+
+    .head:nth-child(2){
+        font-size: 3vw;
+    }
+
+    button{
+        line-height: 20px;
+        font-size: 1.2em;
+    }
 }
